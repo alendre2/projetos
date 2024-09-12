@@ -1,0 +1,101 @@
+/* Reset de margens e preenchimentos para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral para o corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(242, 244, 248);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo específico para cadastrarCliente.html */
+.cadastrar-cliente-body {
+    background-color: rgb(242, 244, 248);
+}
+
+/* Caixa centralizada para o formulário */
+.cadastrar-cliente-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Estilo do título */
+.cadastrar-cliente-box h1 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+/* Estilo para o formulário */
+.cadastrar-cliente-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Estilo para os campos de entrada */
+input {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* Estilo para os botões */
+button, .buttonCliente {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+/* Estilo para o botão de cadastrar */
+button {
+    background-color: #007bff;
+}
+
+/* Mudança de cor ao passar o mouse no botão de cadastrar */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para o botão de voltar */
+.buttonCliente {
+    background-color: #28a745;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: normal;
+}
+
+/* Mudança de cor ao passar o mouse no botão de voltar */
+.buttonCliente:hover {
+    background-color: #218838;
+}
+
+/* Sombra suave ao passar o mouse nos campos de entrada */
+input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}

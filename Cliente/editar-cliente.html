@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Cliente/style-editar-cliente.css">
+    <script src="/Cliente/editar-cliente.js" defer></script>
+    <title>Editar Cliente</title>
+</head>
+<body>
+    <div class="editar-cliente-box">
+        <h1>Editar Cliente</h1>
+        <form id="formEditarCliente">
+            <input type="hidden" id="clienteId">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" required>
+
+            <label for="dataNascimento">Data de Nascimento:</label>
+            <input type="date" id="dataNascimento" required>
+
+            <button type="submit">Salvar</button>
+        </form>
+        <a href="/Cliente/consultar-cliente.html" class="button">Voltar</a>
+    </div>
+</body>
+</html>

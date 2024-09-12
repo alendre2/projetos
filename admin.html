@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-admin.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Administração</title>
+</head>
+
+<body class="admin">
+    <header>
+        <h1>Bem-vindo ao Painel de Administração</h1>
+        <nav>
+            <ul class="button-nav">
+                <li><a href="/Cliente/cadastrarCliente.html" class="button"><i class="bi bi-person-plus"></i> Cadastrar Cliente</a></li>
+                <li><a href="/Funcionario/funcionarios.html" class="button"><i class="bi bi-person-lines-fill"></i> Cadastrar Funcionários</a></li>
+                <li><a href="servicos.html" class="button"><i class="bi bi-scissors"></i> Cadastrar Serviços</a></li>
+                <li><a href="produtos.html" class="button"><i class="bi bi-box"></i> Cadastrar Produtos</a></li>
+                <li><a href="vendas.html" class="button"><i class="bi bi-currency-dollar"></i> Realizar Venda</a></li>
+                <li><a href="login.html" class="button-logout"><i class="bi bi-box-arrow-left"></i> Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Área de Administração</h2>
+        <div class="info-cards">
+            <a href="/Cliente/consultar-cliente.html" class="card-link">
+                <div class="card">
+                    <i class="bi bi-people-fill"></i>
+                    <p>Clientes</p>
+                    <span>150</span>
+                </div>
+            </a>
+            <a href="/Funcionario/consultar-funcionarios.html" class="card-link">
+                <div class="card">
+                    <i class="bi bi-person-workspace"></i>
+                    <p>Funcionários</p>
+                    <span>10</span>
+                </div>
+            </a>
+            <a href="consultar-servicos.html" class="card-link">
+                <div class="card">
+                    <i class="bi bi-scissors"></i>
+                    <p>Serviços</p>
+                    <span>25</span>
+                </div>
+            </a>
+            <a href="consultar-produtos.html" class="card-link">
+                <div class="card">
+                    <i class="bi bi-box"></i>
+                    <p>Produtos</p>
+                    <span>50</span>
+                </div>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Centro De Beleza e Estética AM</p>
+    </footer>
+</body>
+
+</html>
